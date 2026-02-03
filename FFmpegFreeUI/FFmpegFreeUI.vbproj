@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -32,10 +32,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Language\**" />
-    <EmbeddedResource Remove="Language\**" />
-    <None Remove="Language\**" />
-    <Page Remove="Language\**" />
+    <Compile Remove="Resources\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Resources\**" />
+    <Page Remove="Resources\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -71,11 +71,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Update="Resource1.Designer.vb">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resource1.resx</DependentUpon>
-    </Compile>
+
   </ItemGroup>
 
   <ItemGroup>
@@ -84,11 +80,7 @@
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resource1.resx">
-      <CustomToolNamespace>My.Resources</CustomToolNamespace>
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource1.Designer.vb</LastGenOutput>
-    </EmbeddedResource>
+
   </ItemGroup>
 
   <ItemGroup>
@@ -99,12 +91,11 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Update="Resources\语言_en.json">
+    <None Update="Resources\Language_en.json">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
-    <None Update="Resources\语言_zh.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
+
   </ItemGroup>
 
 </Project>
+

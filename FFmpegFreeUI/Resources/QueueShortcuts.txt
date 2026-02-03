@@ -1,0 +1,9 @@
+﻿Enter  -->  Start
+Space  -->  Pause
+Ctrl + A  -->  Select All
+Alt + A  -->  Invert Selection
+Delete  -->  Remove
+Esc  -->  Reset
+End  -->  Stop
+F3  -->  Move Up
+F4  -->  Move Down

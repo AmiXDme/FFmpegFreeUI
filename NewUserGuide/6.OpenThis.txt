@@ -1,0 +1,3 @@
+The correct download location is releases: https://github.com/Lake1059/FFmpegFreeUI/releases
+
+Direct Download: https://github.com/Lake1059/FFmpegFreeUI/releases/latest/download/FFmpegFreeUI.ReadyToRun.x64.7z

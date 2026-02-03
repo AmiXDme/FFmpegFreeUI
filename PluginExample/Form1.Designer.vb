@@ -1,8 +1,8 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
-    'Form 重写 Dispose，以清理组件列表。
+    'Form Override Dispose，以CleanUpComponentList。
     <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
@@ -14,12 +14,12 @@ Partial Class Form1
         End Try
     End Sub
 
-    'Windows 窗体设计器所必需的
+    'Windows 窗体Designer所Required的
     Private components As System.ComponentModel.IContainer
 
-    '注意: 以下过程是 Windows 窗体设计器所必需的
-    '可以使用 Windows 窗体设计器修改它。  
-    '不要使用代码编辑器修改它。
+    '注意: 以下过程Yes Windows 窗体Designer所Required的
+    '可以使用 Windows 窗体Designer修改它。  
+    '不To使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New System.ComponentModel.Container
@@ -28,3 +28,4 @@ Partial Class Form1
         Me.Text = "Form1"
     End Sub
 End Class
+

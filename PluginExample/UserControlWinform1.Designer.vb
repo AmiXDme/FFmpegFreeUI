@@ -1,8 +1,8 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class UserControlWinform1
     Inherits System.Windows.Forms.UserControl
 
-    'UserControl 重写释放以清理组件列表。
+    'UserControl OverrideDispose以CleanUpComponentList。
     <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
@@ -14,12 +14,12 @@ Partial Class UserControlWinform1
         End Try
     End Sub
 
-    'Windows 窗体设计器所必需的
+    'Windows 窗体Designer所Required的
     Private components As System.ComponentModel.IContainer
 
-    '注意: 以下过程是 Windows 窗体设计器所必需的
-    '可以使用 Windows 窗体设计器修改它。  
-    '不要使用代码编辑器修改它。
+    '注意: 以下过程Yes Windows 窗体Designer所Required的
+    '可以使用 Windows 窗体Designer修改它。  
+    '不To使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Label20 = New System.Windows.Forms.Label()
@@ -95,7 +95,7 @@ Partial Class UserControlWinform1
         Label128.Padding = New System.Windows.Forms.Padding(2, 0, 0, 2)
         Label128.Size = New System.Drawing.Size(375, 21)
         Label128.TabIndex = 12
-        Label128.Text = "这个页面是我摆出来演示的，你可以将它做成你想要的任何功能"
+        Label128.Text = "这Unit页面Yes我摆出来演示的，你可以将它做成你想To的任何功能"
         ' 
         ' Label124
         ' 
@@ -138,7 +138,7 @@ Partial Class UserControlWinform1
         UiButton1.Size = New System.Drawing.Size(150, 51)
         UiButton1.Style = Sunny.UI.UIStyle.Custom
         UiButton1.TabIndex = 13
-        UiButton1.Text = "试试将一个任务" & vbCrLf & "添加到编码队列"
+        UiButton1.Text = "试试将一Unit任务" & vbCrLf & "添加到编码队列"
         UiButton1.TipsFont = New System.Drawing.Font("宋体", 9F, Drawing.FontStyle.Regular, Drawing.GraphicsUnit.Point, CByte(134))
         ' 
         ' Panel1
@@ -174,7 +174,7 @@ Partial Class UserControlWinform1
         Label5.Name = "Label5"
         Label5.Size = New System.Drawing.Size(334, 168)
         Label5.TabIndex = 3
-        Label5.Text = "如果你不设置自定义控件的背景颜色和文字颜色，那么 .NET 会自动应用其外围容器的属性，可能就会导致你设计的时候是默认白纸黑字，而实际运行时加载进来就变成了黑纸白字。" & vbCrLf & vbCrLf & "如果你需要这些颜色值的话：背景颜色 RGB = 24 或 36 或 48，文字颜色是 HTML 的 Silver。"
+        Label5.Text = "如果你不设置自定义Control的BackgroundColorAndTextColor，那么 .NET 会自动应用其外围容器的属性，可能就会导致你设计的时候Yes默认白纸黑字，而Actual运行时加载进来就变成了黑纸白字。" & vbCrLf & vbCrLf & "如果你需To这些ColorValue的话：BackgroundColor RGB = 24 Or 36 Or 48，TextColorYes HTML 的 Silver。"
         ' 
         ' Label6
         ' 
@@ -224,7 +224,7 @@ Partial Class UserControlWinform1
         Label4.Name = "Label4"
         Label4.Size = New System.Drawing.Size(333, 168)
         Label4.TabIndex = 1
-        Label4.Text = "此页面一般在加载时 New 出来，我的 Demo 里是这样写的，或者你也可以 New 到自己的静态代码中。但不论如何，只要完成了加载那么此页面会一直驻留在内存中，切换其他页面也只是从界面上移除，其本身仍在内存中，这不是你能控制的；如果你在代码中手动释放了它，那么下一次切换到这个页面时就会报错。"
+        Label4.Text = "此页面一般在加载时 New 出来，我的 Demo 里Yes这样写的，Or者你也可以 New 到自己的静态代码In。但不论如何，只To完成了加载那么此页面会一直驻留在MemoryIn，切换其他页面也只Yes从界面上移除，其本身仍在MemoryIn，这不Yes你能控制的；如果你在代码In手动Dispose了它，那么下一次切换到这Unit页面时就会报错。"
         ' 
         ' Label3
         ' 
@@ -258,7 +258,7 @@ Partial Class UserControlWinform1
         Label7.Name = "Label7"
         Label7.Size = New System.Drawing.Size(333, 168)
         Label7.TabIndex = 5
-        Label7.Text = "要做些什么呢？也许你想要实现一个很小的需求，顺便用上我的编码队列，毕竟自己从头做一个进度显示很没必要不是吗？" & vbCrLf & vbCrLf & "顺便说一下，你添加的任务是不会自动开始的，除非等到其他任务结束时自动触发。"
+        Label7.Text = "To做些什么呢？也许你想To实现一Unit很小的需求，顺便用上我的编码队列，毕竟自己从头做一UnitProgress显示很没必To不Yes吗？" & vbCrLf & vbCrLf & "顺便说一下，你添加的任务Yes不会自动开始的，除非等到其他任务结束时自动触发。"
         ' 
         ' Label8
         ' 
@@ -313,7 +313,7 @@ Partial Class UserControlWinform1
         Label10.Name = "Label10"
         Label10.Size = New System.Drawing.Size(334, 168)
         Label10.TabIndex = 3
-        Label10.Text = "你的插件是 .3fui.dll 后缀的，如果你引用了其他库，那么需要将那些 dll 一并存放在 Plugin 文件夹中，所以这就是非常巧妙的设计，让我能够区分哪些才是真正的插件。" & vbCrLf & vbCrLf & "不会扫描子文件夹，毕竟我也没想过会有很多人做插件。"
+        Label10.Text = "你的插件Yes .3fui.dll 后缀的，如果你引用了其他库，那么需To将那些 dll 一并存放在 Plugin File夹In，所以这就Yes非常巧妙的设计，让我能够区分哪些才Yes真正的插件。" & vbCrLf & vbCrLf & "不会扫描子File夹，毕竟我也没想过会有很多人做插件。"
         ' 
         ' Label11
         ' 
@@ -363,7 +363,7 @@ Partial Class UserControlWinform1
         Label14.Name = "Label14"
         Label14.Size = New System.Drawing.Size(333, 168)
         Label14.TabIndex = 1
-        Label14.Text = "是的，你可以在这个 WinForm 界面上添加你的 WPF 自定义控件，但是代码？我不会写，我用不来 WPF，你需要自行解决，反正有 AI 不是吗。"
+        Label14.Text = "Yes的，你可以在这Unit WinForm 界面上添加你的 WPF 自定义Control，但Yes代码？我不会写，我用不来 WPF，你需To自行解决，反正有 AI 不Yes吗。"
         ' 
         ' Label15
         ' 
@@ -397,7 +397,7 @@ Partial Class UserControlWinform1
         Label16.Name = "Label16"
         Label16.Size = New System.Drawing.Size(333, 168)
         Label16.TabIndex = 5
-        Label16.Text = "没有必要纠结哪个好，你擅长哪个就用哪个。"
+        Label16.Text = "没有必To纠结哪Unit好，你擅长哪Unit就用哪Unit。"
         ' 
         ' Label17
         ' 
@@ -409,7 +409,7 @@ Partial Class UserControlWinform1
         Label17.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
         Label17.Size = New System.Drawing.Size(79, 32)
         Label17.TabIndex = 4
-        Label17.Text = "VB 和 C#"
+        Label17.Text = "VB And C#"
         ' 
         ' UserControlWinform1
         ' 
@@ -478,3 +478,4 @@ Partial Class UserControlWinform1
     Friend WithEvents UiButton1 As Sunny.UI.UIButton
 
 End Class
+

@@ -1,4 +1,4 @@
-﻿Imports Microsoft.VisualBasic.ApplicationServices
+Imports Microsoft.VisualBasic.ApplicationServices
 
 Namespace My
     ' The following events are available for MyApplication:
@@ -33,8 +33,10 @@ Namespace My
         End Sub
 
         Private Sub MyApplication_StartupNextInstance(sender As Object, e As StartupNextInstanceEventArgs) Handles Me.StartupNextInstance
-            启动参数响应.处理接收的参数(e.CommandLine.ToList)
+            StartupArgsHandler.HandleReceivedArgs(e.CommandLine.ToList)
         End Sub
+
+
 
     End Class
 End Namespace
